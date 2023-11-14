@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cornelk/hashmap/assert"
+	"github.com/zhangfane/hashmap/assert"
 )
 
 func TestNew(t *testing.T) {

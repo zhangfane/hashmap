@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/alphadose/haxmap"
-	"github.com/cornelk/hashmap"
+	"github.com/zhangfane/hashmap"
 )
 
 const benchmarkItemCount = 1024

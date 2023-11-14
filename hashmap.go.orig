@@ -166,7 +166,7 @@ func (m *Map[Key, Value]) Set(key Key, value Value) {
 
 	for {
 		store := m.store.Load()
-		searchStart := store.itemOrPreNotNull(hash)
+		searchStart := store.item(hash)
 
 		element, added := m.linkedList.AddOrUpdate(searchStart, hash, key, value)
 		if !added {
